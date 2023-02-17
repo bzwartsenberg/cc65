@@ -37,6 +37,10 @@
 #  include <apple2enh.h>
 #elif defined(__APPLE2__)
 #  include <apple2.h>
+#elif defined(__APPLE1__)
+#  include <apple1.h>
+#elif defined(__REPLICA1__)
+#  include <apple1.h>
 #elif defined(__ATARI__)
 #  include <atari.h>
 #elif defined(__ATARI2600__)

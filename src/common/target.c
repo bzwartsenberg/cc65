@@ -144,6 +144,8 @@ struct TargetEntry {
 static const TargetEntry TargetMap[] = {
     {   "apple2",       TGT_APPLE2       },
     {   "apple2enh",    TGT_APPLE2ENH    },
+    {   "apple1",       TGT_APPLE1       },
+    {   "replica1",     TGT_REPLICA1     },
     {   "atari",        TGT_ATARI        },
     {   "atari2600",    TGT_ATARI2600    },
     {   "atari5200",    TGT_ATARI5200    },
@@ -203,6 +205,8 @@ static const TargetProperties PropertyTable[TGT_COUNT] = {
     { "bbc",            CPU_6502,       BINFMT_BINARY,      CTNone  },
     { "apple2",         CPU_6502,       BINFMT_BINARY,      CTNone  },
     { "apple2enh",      CPU_65C02,      BINFMT_BINARY,      CTNone  },
+    { "apple1",         CPU_6502,       BINFMT_BINARY,      CTNone  },
+    { "replica1",       CPU_6502,       BINFMT_BINARY,      CTNone  },
     { "geos-cbm",       CPU_6502,       BINFMT_BINARY,      CTNone  },
     { "creativision",   CPU_6502,       BINFMT_BINARY,      CTNone  },
     { "geos-apple",     CPU_65C02,      BINFMT_BINARY,      CTNone  },

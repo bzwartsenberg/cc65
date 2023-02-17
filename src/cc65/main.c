@@ -232,6 +232,14 @@ static void SetSys (const char* Sys)
             DefineNumericMacro ("__APPLE2ENH__", 1);
             break;
 
+        case TGT_APPLE1:
+            DefineNumericMacro ("__APPLE1__", 1);
+            break;
+
+        case TGT_REPLICA1:
+            DefineNumericMacro ("__REPLICA1__", 1);
+            break;
+
         case TGT_GAMATE:
             DefineNumericMacro ("__GAMATE__", 1);
             break;
